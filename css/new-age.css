@@ -4,7 +4,10 @@ body {
   height: 100%;
 }
 
-
+img.logo2{
+  width:15vw;
+  height:30vh;
+}
 .item1{
 float:left;
 }
@@ -335,6 +338,81 @@ header.how .device-container .screen img {
   header.how .device-container {
     max-width: 325px;
   }
+
+
+header.contact {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background-color: #2FABB0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header.contact h1{
+  color:black;
+  font-size:2vw;
+}
+
+
+header.contact .header-content {
+  max-width: 300px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-left: 18vw;
+
+}
+
+header.contact .header-content h1 {
+  font-size: 5vw;
+}
+
+header.contact .device-container {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+header.contact .device-container .screen img {
+  border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+  header.contact {
+    height: 100vh;
+    min-height: 775px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  header.contact .header-content {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  header.contact .header-content h1 {
+    font-size: 4vw;
+  }
+
+
+  header.contact .device-container {
+    max-width: 325px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
