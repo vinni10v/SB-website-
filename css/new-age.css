@@ -4,69 +4,19 @@ body {
   height: 100%;
 }
 
-img.logo2{
-  width:15vw;
-  height:30vh;
-}
-.item1{
-float:left;
-}
-.item2{
-  float:right;
-}
-
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
-@font-face {
-font-family: NillandBlack;
-src: url(Fonts/Nilland-Black.ttf);
-}
-
-@font-face {
-font-family: Raleway;
-src: url(Fonts/Raleway-Regular.ttf);
-}
-
-/*background image size*/
-img {
-    width: 30vw;
-    height: 30vw;
-}
-
-img.icon{
-  width: 2vw;
-  height: 2vw;
-}
-
-img.logo{
-  width:20%;
-  height:10%;
-}
-
-img.how{
-   width: 25vw;
-    height: 15vw;
-}
-img.download{
-    width: 10vw;
-  height: 5vh;
-}
-
-/*hyperlink text*/
 a {
-  color: #000000;
+  color: #fdcc52;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
-  font-family:Raleway;
-  font-size:1vw;
 }
 
-/*hyperlink focus color*/
 a:hover, a:focus {
-  color: #ffffff;
+  color: #fcbd20;
 }
 
 hr {
@@ -80,26 +30,10 @@ hr.light {
   border-color: white;
 }
 
-h1{
-font-family:NillandBlack;
-font-size:5vw;
-}
-
+h1,
 h2,
-h3{
-    font-family:Raleway;
-  font-size:120%;
-  color:black;
-  padding-left: 40vw;
-}
-
-h4{
-  font-family:NillandBlack;
-  font-size:2.5vw;
-  color:black;
-  padding-left: 26vw;
- 
-}
+h3,
+h4,
 h5,
 h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -116,79 +50,27 @@ p {
 section {
   padding: 100px 0;
 }
-section h1{
-  font-size:4vw;
-  color:#2FABB0;
-
-}
-
-img.center{
-   width:55vw;
-   height:15vw;
-}
-
-img.read{
-  width:15vw;
-  height:50vh;
-}
-
-
-section.how{
-  background-color:white;
-  position: relative;
-  width: 100%;
-  padding-top: 30vh;
-  padding-bottom: 150px;
-  height:100vh;
-
-  
-}
-section.read{
-
-  position: relative;
-  width: 100%;
-  padding-top: 25vh;
-  padding-bottom: 150px;
-  height:100vh;
-
-  
-}
-
-section h5{
-    font-size: .7vw;
-  color:black;
-  font-family: Raleway;
-
-}
 
 section h2 {
   font-size: 50px;
-  color:black;
-  font-family: Nillandblack;
-
 }
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: #2FABB0;
+  background-color: white;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  padding-left:10vw;
-  background-color: #2FABB0;
 }
 
-/*changes color of the left side text*/
 #mainNav .navbar-brand {
-  color: #ffffff;
+  color: #fdcc52;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  width:40vw;
-  background-color: #2FABB0;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -197,23 +79,20 @@ section h2 {
 
 #mainNav .navbar-toggler {
   font-size: 12px;
-  padding: 1px 10px;
+  padding: 8px 10px;
   color: #222222;
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: .7vw;
-  font-family: 'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 11px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
-  font-weight:bold;
-  padding-right: 2vh;
-  background-color: #2FABB0;
+  text-transform: uppercase;
 }
 
-/*navtext will be white when active*/
 #mainNav .navbar-nav > li > a.active {
-  color: #ffffff !important;
-  background-color: #2FABB0;
+  color: #fdcc52 !important;
+  background-color: transparent;
 }
 
 #mainNav .navbar-nav > li > a.active:hover {
@@ -233,7 +112,7 @@ section h2 {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: #2FABB0;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: fade(white, 70%);
@@ -241,21 +120,17 @@ section h2 {
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: white;
   }
-
-  /*navigation bar text color*/
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
     color: white;
   }
-
-  /*background color of navbar*/
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
-    background-color: #2FABB0;
+    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #222222;
@@ -279,142 +154,10 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: #2FABB0;
+  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
 }
-
-header.how {
-  position: relative;
-  width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  color: white;
-  background-image: url("../img/Pag_4B.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color:black;
-}
-
-
-header.how .header-content {
-  max-width: 500px;
-  margin-bottom: 100px;
-  text-align: center;
-
-}
-
-header.how .header-content h1 {
-  font-size: 5vw;
-}
-
-header.how .device-container {
-  max-width: 325px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
-header.how .device-container .screen img {
-  border-radius: 3px;
-}
-
-@media (min-width: 992px) {
-  header.how {
-    height: 100vh;
-    min-height: 775px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-
-  header.how .header-content {
-    margin-bottom: 0;
-    text-align: left;
-  }
-  header.how .header-content h1 {
-    font-size: 4vw;
-  }
-
-
-  header.how .device-container {
-    max-width: 325px;
-  }
-
-
-header.contact {
-  position: relative;
-  width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  color: white;
-  background-color: #2FABB0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-header.contact h1{
-  color:black;
-  font-size:2vw;
-}
-
-
-header.contact .header-content {
-  max-width: 300px;
-  margin-bottom: 100px;
-  text-align: center;
-  padding-left: 18vw;
-
-}
-
-header.contact .header-content h1 {
-  font-size: 5vw;
-}
-
-header.contact .device-container {
-  max-width: 500px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
-header.contact .device-container .screen img {
-  border-radius: 3px;
-}
-
-@media (min-width: 992px) {
-  header.contact {
-    height: 100vh;
-    min-height: 775px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-
-  header.contact .header-content {
-    margin-bottom: 0;
-    text-align: left;
-  }
-  header.contact .header-content h1 {
-    font-size: 4vw;
-  }
-
-
-  header.contact .device-container {
-    max-width: 325px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 header.masthead .header-content {
   max-width: 500px;
@@ -423,7 +166,7 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-  font-size: 5vw;
+  font-size: 30px;
 }
 
 header.masthead .device-container {
@@ -443,120 +186,53 @@ header.masthead .device-container .screen img {
     padding-top: 0;
     padding-bottom: 0;
   }
-
-
   header.masthead .header-content {
     margin-bottom: 0;
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 4vw;
+    font-size: 50px;
   }
-
-
   header.masthead .device-container {
     max-width: 325px;
   }
+}
 
-header.download {
+section.download {
   position: relative;
-  width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  color: white;
-  
-  background-repeat: no-repeat;
-  background-size: cover;
- 
+  padding: 150px 0;
 }
 
-header.download .header-content {
-  max-width: 500px;
-  margin-bottom: 100px;
-  text-align: center;
-  margin-top:35vh;
+section.download h2 {
+  font-size: 50px;
+  margin-top: 0;
 }
 
-header.download .header-content h1 {
-  font-size: 5vw;
-  color: #2FABB0;
-}
-
-header.download .device-container {
-  max-width: 325px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
-header.download .device-container .screen img {
-  border-radius: 3px;
-}
-
-@media (min-width: 992px) {
-  header.download {
-    height: 100vh;
-    min-height: 775px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-
-  header.download .header-content {
-    margin-bottom: 0;
-    text-align: left;
-  }
-  header.download .header-content h1 {
-    font-size: 4vw;
-  }
-
-
-  header.download .device-container {
-    max-width: 325px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-header.download .badges .badge-link {
+section.download .badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
 
-header.download .badges .badge-link:last-child {
+section.download .badges .badge-link:last-child {
   margin-bottom: 0;
 }
 
-header.download .badges .badge-link img {
-  height: 50px;
+section.download .badges .badge-link img {
+  height: 60px;
 }
 
 @media (min-width: 768px) {
-  header.download .badges .badge-link {
+  section.download .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
-  header.download h2 {
+  section.download h2 {
     font-size: 70px;
   }
 }
-
-
-
-
-
-
 
 section.features .section-heading {
   margin-bottom: 100px;
@@ -644,8 +320,6 @@ section.cta .overlay {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-
 
 section.contact {
   text-align: center;
