@@ -32,6 +32,9 @@ h4{
   font-family:NillandBlack;
 }
 
+nav{
+  background-color: #2FABB0;
+}
 #mainNav {
   background-color: #2FABB0;
   padding-left:10vw;
@@ -46,6 +49,7 @@ h4{
 
 #mainNav .navbar-toggler {
   padding: 1px 10px;
+  background-color: #2FABB0;
 }
 
 #mainNav .navbar-nav > li > a {
@@ -61,6 +65,16 @@ h4{
 #mainNav .navbar-nav > li > a.active {
   color: #ffffff !important;
   background-color: #2FABB0;
+}
+
+#mainNav.navbar-shrink {
+    border-color: rgba(34, 34, 34, 0.1);
+    background-color: #2FABB0;
+  }
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color: #ffffff !important;
 }
 
 /*----------Home Page---------------------------*/
@@ -182,6 +196,31 @@ header.how .device-container .screen img {
   border-radius: 3px;
 }
 /*-----------------------------------------------------------------------------------*/
+/*----------How2-----------------------------*/
+header.how2 {
+  position: relative;
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color:white;
+}
+
+header.how2 .header-content {
+  max-width: 50vw;
+  text-align: left;
+  margin-left:1vw;
+  margin-top:1vw;
+}
+
+header.how2 h1{
+  font-size: 3vw;
+  color:#2FABB0;
+}
+
+header.how2 h5{
+  font-size: 1vw;
+}
 
 /*----------Ask-----------------------------*/
 header.ask {
@@ -317,6 +356,6 @@ img.center{
 }
 
 img.read{
-  width:15vw;
-  height:50vh;
+  width:23vw;
+  height:70vh;
 }
