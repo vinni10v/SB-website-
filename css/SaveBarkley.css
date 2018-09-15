@@ -18,14 +18,10 @@ a:hover, a:focus {
 
 h1{
   font-family:NillandBlack;
-  font-size:5vw;
 }
 
 h3{
   font-family:Raleway;
-  font-size:120%;
-  color:black;
-  padding-left: 40vw;
 }
 
 h4{
@@ -88,10 +84,6 @@ header.masthead {
   background: #2FABB0;
 }
 
-header.masthead .header-content h1 {
-  font-size: 3vw;
-  text-align: left;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*----------Contact-----------------------------*/
@@ -110,9 +102,7 @@ header.contact h1{
 
 header.contact .header-content {
   max-width: 300px;
-  margin-bottom: 100px;
-  text-align: center;
-  padding-left: 18vw;
+  padding-left: 14vw;
 }
 
 header.contact .header-content h1 {
@@ -171,19 +161,18 @@ header.how {
 }
 
 header.how .header-content {
-  max-width: 500px;
-  text-align: left;
-  margin-left:10vw;
+  max-width: 1000px;
 }
 
 header.how h4{
-  margin-left:38.4vw;
+  text-align: right;
   font-size: 2vw;
 }
 
 header.how h3{
-  margin-left:7.5vw;
+   text-align: right;
   width:100%;
+  font-size:1vw;
 }
 
 header.how .device-container {
@@ -313,6 +302,44 @@ header.download .device-container {
 header.download .device-container .screen img {
   border-radius: 3px;
 }
+/*----------video-----------------------------*/
+header.video {
+  position: relative;
+  background-color: white;
+}
+
+header.video .container{
+padding-left: 9vw;
+padding-top: 12vw;
+}
+header.video h1{
+  color:black;
+  font-size:2vw;
+}
+
+
+header.video .header-content {
+  max-width: 300px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-left: 18vw;
+}
+
+header.video .header-content h1 {
+  font-size: 5vw;
+}
+
+header.video .device-container {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+header.video .device-container .screen img {
+  border-radius: 3px;
+}
+
 
 /*------------------MY CODES-----------------------------*/
 @font-face {
