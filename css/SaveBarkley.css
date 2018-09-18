@@ -102,7 +102,7 @@ header.contact h1{
 
 header.contact .header-content {
   max-width: 300px;
-  padding-left: 14vw;
+  padding-left: 290px;
 }
 
 header.contact .header-content h1 {
@@ -160,30 +160,16 @@ header.how {
   background-color:white;
 }
 
-header.how .header-content {
-  max-width: 1000px;
-}
-
 header.how h4{
-  text-align: right;
-  font-size: 2vw;
+  margin-left:550px;
+  font-size: 35px;
 }
 
 header.how h3{
-   text-align: right;
-  width:100%;
-  font-size:1vw;
+  margin-left:700px;
+  font-size:10px;
 }
 
-header.how .device-container {
-  margin-right: auto;
-  margin-left: 21vw;
-  margin-top: 17vw;  
-}
-
-header.how .device-container .screen img {
-  border-radius: 3px;
-}
 /*-----------------------------------------------------------------------------------*/
 /*----------How2-----------------------------*/
 header.how2 {
@@ -203,12 +189,12 @@ header.how2 .header-content {
 }
 
 header.how2 h1{
-  font-size: 3vw;
+  font-size: 40px;
   color:#2FABB0;
 }
 
 header.how2 h5{
-  font-size: 1vw;
+  font-size: 17px;
 }
 
 /*----------Ask-----------------------------*/
@@ -228,7 +214,7 @@ header.ask .header-content {
 }
 
 header.ask .header-content h1 {
-  font-size: 4.5vw;
+  font-size: 70px;
   color:#2FABB0;
 }
 
@@ -238,7 +224,7 @@ header.ask .header-content h1 {
 }
 
 header.ask .device-container{
-  max-width: 325px;
+  max-width: 250px;
   outline:2px solid white;
 }
 
@@ -289,7 +275,7 @@ header.download .header-content {
 }
 
 header.download .header-content h1 {
-  font-size: 5vw;
+  font-size: 50px;
   color: #2FABB0;
 }
 
@@ -312,11 +298,6 @@ header.video .container{
 padding-left: 9vw;
 padding-top: 12vw;
 }
-header.video h1{
-  color:black;
-  font-size:2vw;
-}
-
 
 header.video .header-content {
   max-width: 300px;
@@ -325,21 +306,11 @@ header.video .header-content {
   padding-left: 18vw;
 }
 
-header.video .header-content h1 {
-  font-size: 5vw;
-}
-
 header.video .device-container {
   max-width: 500px;
   margin-right: auto;
   margin-left: auto;
 }
-
-
-header.video .device-container .screen img {
-  border-radius: 3px;
-}
-
 
 /*------------------MY CODES-----------------------------*/
 @font-face {
@@ -378,8 +349,11 @@ img.download{
 }
 
 img.center{
-   width:55vw;
-   height:15vw;
+  width:55vw;
+  height:15vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.read{
